@@ -16,7 +16,7 @@ angular.module('testApp.controllers').controller('HomeCtrl', function ($rootScop
 	        params: {           
 	            callback: "JSON_CALLBACK" 
 	        }, 
-	        url: "/~narendirasha/TestApp/www/jsondata/data.json"
+	        url: "jsondata/data.json"
 	    };
 	    
 		$xhr.request(teamsRequestObj).then(on_success, on_failure);
